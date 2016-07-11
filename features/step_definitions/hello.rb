@@ -23,8 +23,6 @@ Then(/^I can input mutiple value$/) do
     @driver.find_element(:id, "group_1000005_5").click
     @driver.find_element(:id, "group_1000006_4").click
     @driver.find_element(:id, "group_1000007_5").click
-
-
 end
 
 Then(/^I can submit$/) do
